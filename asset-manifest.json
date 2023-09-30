@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/aaa-portfolio/static/css/main.99d1e91a.css",
+    "main.js": "/aaa-portfolio/static/js/main.12e1f8b9.js",
+    "static/media/css-logo.png": "/aaa-portfolio/static/media/css-logo.acb35b131ae85a68d327.png",
+    "static/media/my-pic.png": "/aaa-portfolio/static/media/my-pic.262e357680b67d647397.png",
+    "static/media/android-studio-logo.png": "/aaa-portfolio/static/media/android-studio-logo.8a81ac4da2816855eac7.png",
+    "static/media/my-logo.png": "/aaa-portfolio/static/media/my-logo.a4d6c4875af70d078065.png",
+    "static/media/python-logo.png": "/aaa-portfolio/static/media/python-logo.f9dc70303b81180b774d.png",
+    "static/media/cpp-logo.png": "/aaa-portfolio/static/media/cpp-logo.fc461cc8303a38559c80.png",
+    "static/media/jetpack-compose-logo.png": "/aaa-portfolio/static/media/jetpack-compose-logo.3ef8d1755096bbc66c60.png",
+    "static/media/git-github-logo.png": "/aaa-portfolio/static/media/git-github-logo.c3c22e534012fa85f18f.png",
+    "static/media/react-logo.png": "/aaa-portfolio/static/media/react-logo.2fad5f467c7c76cdfa4f.png",
+    "static/media/js-logo.png": "/aaa-portfolio/static/media/js-logo.83b736c551efc828bfea.png",
+    "static/media/mysql-logo.png": "/aaa-portfolio/static/media/mysql-logo.9abb470bd3a3e2290e39.png",
+    "static/media/linkedin-clone.png": "/aaa-portfolio/static/media/linkedin-clone.3bbc94c5e2bf8a60f520.png",
+    "static/media/html-logo.png": "/aaa-portfolio/static/media/html-logo.df69503917a05a968e58.png",
+    "static/media/msu-logo.png": "/aaa-portfolio/static/media/msu-logo.5d6d4efd0745637187cc.png",
+    "static/media/drupal-logo.webp": "/aaa-portfolio/static/media/drupal-logo.c8102e0131085429779d.webp",
+    "static/media/firebase-logo.png": "/aaa-portfolio/static/media/firebase-logo.eb0f694b0397db6b58c3.png",
+    "static/media/amazon-clone.png": "/aaa-portfolio/static/media/amazon-clone.d82c01816b81b7dffb81.png",
+    "static/media/fedora-logo.jpeg": "/aaa-portfolio/static/media/fedora-logo.728c4dc4e3493bd86915.jpeg",
+    "static/media/kotlin-logo.webp": "/aaa-portfolio/static/media/kotlin-logo.1e5a85ba2bd6effed0d0.webp",
+    "static/media/devilbox-logo.webp": "/aaa-portfolio/static/media/devilbox-logo.db58990ecfc7a1ba7266.webp",
+    "index.html": "/aaa-portfolio/index.html",
+    "main.99d1e91a.css.map": "/aaa-portfolio/static/css/main.99d1e91a.css.map",
+    "main.12e1f8b9.js.map": "/aaa-portfolio/static/js/main.12e1f8b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.99d1e91a.css",
+    "static/js/main.12e1f8b9.js"
+  ]
+}
