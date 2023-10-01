@@ -29,7 +29,7 @@ const Portfolio = () => {
                 <p className='text-4xl font-bold inline border-b-4 border-blue-500'>Portfolio</p>
                 <p className='py-10'>Check out some of my work right here</p>
             </div>
-            <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 px-12 sm:px-0'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-12 sm:px-0'>
                 
                 {projects.map(({id,projectName,projectImage,projectLink},ind)=>
                 (   <div key={id} className='flex flex-col items-center justify-center'>

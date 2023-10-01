@@ -141,7 +141,7 @@ function Experience() {
                 <p className='text-4xl font-bold inline border-b-4 border-blue-500'>Skills</p>
                 <p className='py-8 text-lg'>These are some skills I have acquired through my journey in Computer Science</p>
             </div>
-            <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 px-12 sm:px-0'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-12 sm:px-0'>
                 
                 {skills.map(({id,skillName,skillLogo,shadeColor,textColor},ind)=>
                 (   
