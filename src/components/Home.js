@@ -4,7 +4,7 @@ import { FaArrowRight } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 const Home = () => {
     return (
-    <div name="home" className=' flex w-full bg-gradient-to-b from-cyan-500 via-purple-500 to-pink-500 text-white mt-5 py-40 '>
+    <div name="home" className=' flex w-full bg-gradient-to-b from-cyan-500 via-purple-500 to-pink-500 text-white text-justify mt-5 py-40 '>
         <div className='max-w-screen-md mx-auto flex flex-col items-center justify-center h-full px-4 lg:flex-row'>
             <div className='flex flex-col items-center justify-center gap-11'>
                 <h2 className='text-3xl sm:text-3xl font-semibold text-white mr-10'>
