@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/aaa-portfolio/static/css/main.ae834b23.css",
-    "main.js": "/aaa-portfolio/static/js/main.ccc1e210.js",
+    "main.css": "/aaa-portfolio/static/css/main.837813e2.css",
+    "main.js": "/aaa-portfolio/static/js/main.50a98fb4.js",
     "static/media/css-logo.png": "/aaa-portfolio/static/media/css-logo.acb35b131ae85a68d327.png",
     "static/media/my-pic.png": "/aaa-portfolio/static/media/my-pic.262e357680b67d647397.png",
     "static/media/android-studio-logo.png": "/aaa-portfolio/static/media/android-studio-logo.8a81ac4da2816855eac7.png",
@@ -24,11 +24,11 @@
     "static/media/kotlin-logo.webp": "/aaa-portfolio/static/media/kotlin-logo.1e5a85ba2bd6effed0d0.webp",
     "static/media/devilbox-logo.webp": "/aaa-portfolio/static/media/devilbox-logo.db58990ecfc7a1ba7266.webp",
     "index.html": "/aaa-portfolio/index.html",
-    "main.ae834b23.css.map": "/aaa-portfolio/static/css/main.ae834b23.css.map",
-    "main.ccc1e210.js.map": "/aaa-portfolio/static/js/main.ccc1e210.js.map"
+    "main.837813e2.css.map": "/aaa-portfolio/static/css/main.837813e2.css.map",
+    "main.50a98fb4.js.map": "/aaa-portfolio/static/js/main.50a98fb4.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae834b23.css",
-    "static/js/main.ccc1e210.js"
+    "static/css/main.837813e2.css",
+    "static/js/main.50a98fb4.js"
   ]
 }
