@@ -50,7 +50,7 @@ const SocialLinks = () => {
                 </>
             ),
 
-            href: '../assets/Aditya_Archunan_Anand.pdf',
+            href: require('../assets/Aditya_Archunan_Anand.pdf'),
             style: 'rounded-tr-md',
             download: true
         },
@@ -61,8 +61,8 @@ const SocialLinks = () => {
             <ul>
 
                 {links.map((link,index) => (
-                    <li key={link.id} className="flex justify-between items-center w-40 h-14  ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500 rounded-tr-md">
-                        <a href={link.href} rel="noreferrer" target="_blank" className="flex justify-between items-center w-full px-4 text-white" download={link?.download}>
+                    <li key={link.id} className="flex justify-between items-center w-40 h-14  ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-cyan-700 rounded-tr-md">
+                        <a href={link.href} rel="noreferrer" target="_blank" className="flex justify-between items-center w-full px-4 text-white">
                             {link.child}
                         </a> 
                     </li>

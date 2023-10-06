@@ -4,7 +4,7 @@ import { FaArrowRight } from 'react-icons/fa';
 import { Link } from 'react-scroll';
 const Home = () => {
     return (
-    <div name="home" className=' flex w-full bg-gradient-to-b from-black via-blue-950 to-slate-900 text-white mt-5 py-40 '>
+    <div name="home" className=' flex w-full bg-gradient-to-b from-cyan-500 via-purple-500 to-pink-500 text-white mt-5 py-40 '>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 lg:flex-row'>
             <div className='flex flex-col items-center justify-center gap-11'>
                 <h2 className='text-3xl sm:text-3xl font-semibold text-white mr-10'>
@@ -26,7 +26,7 @@ const Home = () => {
                     repeat={Infinity}
                 /> 
                 </h2>
-                <p className='text-cyan-400 py-6 max-w-md'>
+                <p className='text-white text-xl py-6 max-w-lg'>
                     I am an undergraduate student at MSU studying computer science.
                     I am currently in my sophomore and have gained experience in using React and Next.js
                     by building clones of famous websites and have used other technologies like Google Firebase, Stripe API, Redux.js.
@@ -36,7 +36,7 @@ const Home = () => {
                 </p>
                 <div>
                 <Link to='portfolio' smooth={true} duration={500}>
-                    <button className=' group text-white w-fit px-6 py-3 my-2 flex items-center rounded-2xl bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer gap-3'>
+                    <button className=' group text-white text-xl w-fit px-6 py-3 my-2 flex items-center rounded-2xl bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer gap-3'>
                        Portfolio   <span className=' group-hover:rotate-90 duration-300'> <FaArrowRight size={20} /> </span>
                     
                     </button>

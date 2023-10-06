@@ -11,7 +11,7 @@ import SocialLinks from './components/SocialLinks';
 function App() {
   return (
     
-<div className='flex flex-col gap-16 lg:gap-10 bg-gradient-to-b from-gray-800 to-slate-800'>
+<div className='flex flex-col bg-gradient-to-b from-gray-800 to-slate-800'>
   <NavBar />
   <Home />
   <About />
