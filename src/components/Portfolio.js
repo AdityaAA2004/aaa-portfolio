@@ -7,7 +7,7 @@ const Portfolio = () => {
             id:1,
             projectName: "Amazon Clone",
             projectImage: require('../assets/amazon-clone.png'),
-            projectLink: 'https://my-amazon-clone-six.vercel.app',
+            projectLink: 'https://my-amazon-clone-adiaa.vercel.app/',
         },
         {
             id:2,
