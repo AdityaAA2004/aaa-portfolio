@@ -10,7 +10,7 @@ const About = () => {
             I am Aditya Archunan Anand, a highly motivated and skilled individual currently pursuing a Bachelor of Computer Science at Michigan State University. 
             With a strong GPA of 3.94, I am actively seeking a technical internship position to further enhance my industry-oriented technology skills.
 
-            <br />
+            <br /><br />
             <p className='text-xl'>
             Currently, I am continuing my journey as a Student Web Developer Intern at my university. 
             In this role, I am actively involved in resolving technical issues in websites using PHP, MySQL, and Drupal CMS. 
