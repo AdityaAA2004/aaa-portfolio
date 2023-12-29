@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/aaa-portfolio/static/css/main.ef7a7c07.css",
-    "main.js": "/aaa-portfolio/static/js/main.9385a57c.js",
+    "main.js": "/aaa-portfolio/static/js/main.54ac717a.js",
     "static/media/css-logo.png": "/aaa-portfolio/static/media/css-logo.acb35b131ae85a68d327.png",
     "static/media/my-pic.png": "/aaa-portfolio/static/media/my-pic.262e357680b67d647397.png",
     "static/media/android-studio-logo.png": "/aaa-portfolio/static/media/android-studio-logo.8a81ac4da2816855eac7.png",
-    "static/media/Aditya_Archunan_Anand.pdf": "/aaa-portfolio/static/media/Aditya_Archunan_Anand.15a680f47a916ef64b6b.pdf",
+    "static/media/Aditya_Archunan_Anand.pdf": "/aaa-portfolio/static/media/Aditya_Archunan_Anand.f3b4883cb4ba834ddd5f.pdf",
     "static/media/my-logo.png": "/aaa-portfolio/static/media/my-logo.a4d6c4875af70d078065.png",
     "static/media/python-logo.png": "/aaa-portfolio/static/media/python-logo.f9dc70303b81180b774d.png",
     "static/media/cpp-logo.png": "/aaa-portfolio/static/media/cpp-logo.fc461cc8303a38559c80.png",
@@ -25,10 +25,10 @@
     "static/media/devilbox-logo.webp": "/aaa-portfolio/static/media/devilbox-logo.db58990ecfc7a1ba7266.webp",
     "index.html": "/aaa-portfolio/index.html",
     "main.ef7a7c07.css.map": "/aaa-portfolio/static/css/main.ef7a7c07.css.map",
-    "main.9385a57c.js.map": "/aaa-portfolio/static/js/main.9385a57c.js.map"
+    "main.54ac717a.js.map": "/aaa-portfolio/static/js/main.54ac717a.js.map"
   },
   "entrypoints": [
     "static/css/main.ef7a7c07.css",
-    "static/js/main.9385a57c.js"
+    "static/js/main.54ac717a.js"
   ]
 }
