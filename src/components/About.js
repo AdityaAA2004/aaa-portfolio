@@ -18,10 +18,11 @@ const About = () => {
             </p>
             <br />
             <p className='text-xl'>
-            In addition to my on-campus job, I have undertaken impressive projects outside of my academic responsibilities. 
-            For instance, I built a clone of the Amazon website using Next.js, incorporating features like server-side rendering and Google Authentication. 
-            I also developed a LinkedIn clone using React.js, allowing users to post and expand on content. These projects have further honed my technical skills and provided me with valuable hands-on experience. 
-            My leadership skills shine through the role as a Tech Lead at Target.ist, where I collaborated on building an AI-based task automation software.
+            In addition to my on-campus job, I am an aspiring MERN stack developer. I got exposure to this industry-standard tech stack
+            in my sophomore year. With good background in React and NextJS through personal projects like making clones of the Amazon and LinkedIn websites,
+            I was able to confidently use this tech stack in my hackathon project which involved the use of MERN stack to authenticate users using JWT tokens,
+            and pull software crash logs from Mongo DB and display them according to the priority level which was determined by an AI model written by my friends 
+            for this purpose. I am currently using this tech stack while working on a start-up idea called <a href='https://www.targetistusa.com'>Targetist</a> with my friend.     
             </p>
             <br />
             
