@@ -28,11 +28,9 @@ const Home = () => {
                 </h2>
                 <p className='text-white text-xl py-6 max-w-lg'>
                     I am an undergraduate student at MSU studying computer science.
-                    I am currently in my sophomore and have gained experience in using React and Next.js
-                    by building clones of famous websites and have used other technologies like Google Firebase, Stripe API, Redux.js.
-                    I have learnt Python, Java and C++ in backend upto an intermediate level.
-                    I would love to expand my knowledge as much as possible in other horizons of this exciting field
-                    of Computer Science.  
+                    I am currently in my sophomore year. I am an aspiring MERN stack developer. I have used it in a few projeccts, and hope to 
+                    enhance my expertise in it. Apart from this, I am open to learning and expanding my knowledge in other horizons of computer science. At the moment,
+                    I am actively seeking a technical internship from a reputed company.                
                 </p>
                 <div>
                 <Link to='portfolio' smooth={true} duration={500}>
