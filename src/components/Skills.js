@@ -52,11 +52,11 @@ function Experience() {
         },
         {
             id: 7,
-            skillName: "Firebase",
-            skillLogo: require('../assets/firebase-logo.png'),
-            shadeColor: 'shadow-md shadow-yellow-500 rounded-xl mt-10',
-            bgColor: 'bg-orange-500',
-            textColor: "text-yellow-500"
+            skillName: "MongoDB",
+            skillLogo: require('../assets/mongoDB.png'),
+            shadeColor: 'shadow-md shadow-green-500 rounded-xl mt-10',
+            bgColor: 'bg-green-500',
+            textColor: "text-green-500"
         },
         {
             id: 8,
@@ -133,20 +133,11 @@ function Experience() {
         },
         {
             id: 17,
-            skillName: "C++",
-            skillLogo: require('../assets/cpp-logo.png'),
+            skillName: "NodeJS and ExpressJS",
+            skillLogo: require('../assets/node-and-express.jpeg'),
             shadeColor: 'shadow-md shadow-sky-500 rounded-xl mt-10',
             bgColor: 'bg-orange-500',
             textColor: "text-sky-500"
-        },
-        
-        {
-            id: 18,
-            skillName: "MySQL",
-            skillLogo: require('../assets/mysql-logo.png'),
-            shadeColor: 'shadow-md shadow-yellow-500 rounded-xl mt-10',
-            bgColor: 'bg-orange-500',
-            textColor: "text-yellow-500"
         },
         
         
