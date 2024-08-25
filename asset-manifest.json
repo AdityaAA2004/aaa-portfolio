@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/aaa-portfolio/static/css/main.95fab991.css",
-    "main.js": "/aaa-portfolio/static/js/main.bf7c4519.js",
+    "main.js": "/aaa-portfolio/static/js/main.6b3a3032.js",
     "static/media/css-logo.png": "/aaa-portfolio/static/media/css-logo.acb35b131ae85a68d327.png",
     "static/media/my-pic.png": "/aaa-portfolio/static/media/my-pic.262e357680b67d647397.png",
     "static/media/android-studio-logo.png": "/aaa-portfolio/static/media/android-studio-logo.8a81ac4da2816855eac7.png",
+    "static/media/Aditya_Archunan_Anand.pdf": "/aaa-portfolio/static/media/Aditya_Archunan_Anand.70e3d1e7ab7b67cdeb8c.pdf",
     "static/media/my-logo.png": "/aaa-portfolio/static/media/my-logo.a4d6c4875af70d078065.png",
     "static/media/python-logo.png": "/aaa-portfolio/static/media/python-logo.f9dc70303b81180b774d.png",
-    "static/media/Aditya_Archunan_Anand.pdf": "/aaa-portfolio/static/media/Aditya_Archunan_Anand.56439339412929d4289e.pdf",
     "static/media/jetpack-compose-logo.png": "/aaa-portfolio/static/media/jetpack-compose-logo.3ef8d1755096bbc66c60.png",
     "static/media/git-github-logo.png": "/aaa-portfolio/static/media/git-github-logo.c3c22e534012fa85f18f.png",
     "static/media/react-logo.png": "/aaa-portfolio/static/media/react-logo.2fad5f467c7c76cdfa4f.png",
@@ -23,10 +23,10 @@
     "static/media/devilbox-logo.webp": "/aaa-portfolio/static/media/devilbox-logo.db58990ecfc7a1ba7266.webp",
     "index.html": "/aaa-portfolio/index.html",
     "main.95fab991.css.map": "/aaa-portfolio/static/css/main.95fab991.css.map",
-    "main.bf7c4519.js.map": "/aaa-portfolio/static/js/main.bf7c4519.js.map"
+    "main.6b3a3032.js.map": "/aaa-portfolio/static/js/main.6b3a3032.js.map"
   },
   "entrypoints": [
     "static/css/main.95fab991.css",
-    "static/js/main.bf7c4519.js"
+    "static/js/main.6b3a3032.js"
   ]
 }
