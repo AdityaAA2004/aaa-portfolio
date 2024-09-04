@@ -159,7 +159,7 @@ function Experience() {
                     <div className="flex items-center justify-center">
                         <span className={`w-1/2 px-6 py-3 m-4 text-center text-xl text-white`}>{skillName}</span>
                     </div>
-                </div>  
+                    </div>  
                 
                 ))}
                 
