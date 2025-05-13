@@ -8,14 +8,14 @@ const projects = [
     link: 'https://targetist.io',
   },
   {
-    name: 'Amazon',
+    name: 'Amazon Clone',
     image: require('../assets/amazon-clone.png'),
-    link: '#',
+    link: 'https://my-amazon-clone-adiaa.vercel.app/',
   },
   {
     name: 'Neural Network Car Sim',
     image: require('../assets/nn-car-sim.png'),
-    link: '#',
+    link: 'https://github.com/AdityaAA2004/Neural-Network-Car-sim',
   },
 ];
 
