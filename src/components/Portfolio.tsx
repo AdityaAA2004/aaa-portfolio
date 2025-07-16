@@ -8,9 +8,9 @@ const projects = [
     link: 'https://targetist.io',
   },
   {
-    name: 'Amazon Clone',
-    image: require('../assets/amazon-clone.png'),
-    link: 'https://my-amazon-clone-adiaa.vercel.app/',
+    name: 'Zenith',
+    image: require('../assets/zenith.png'),
+    link: 'https://github.com/AdityaAA2004/Zenith',
   },
   {
     name: 'Neural Network Car Sim',
