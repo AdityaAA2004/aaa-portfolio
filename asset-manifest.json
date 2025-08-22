@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/aaa-portfolio/static/css/main.a0a0c7ce.css",
-    "main.js": "/aaa-portfolio/static/js/main.01145375.js",
+    "main.js": "/aaa-portfolio/static/js/main.54efc1fb.js",
     "static/js/787.1ed0c42c.chunk.js": "/aaa-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/aditya_hero.png": "/aaa-portfolio/static/media/aditya_hero.9e2b740c74922d406fd2.png",
     "static/media/aditya.jpg": "/aaa-portfolio/static/media/aditya.afc3232499d3aba1df84.jpg",
     "static/media/linux.png": "/aaa-portfolio/static/media/linux.fa16acdf775b49806cdd.png",
     "static/media/zenith.png": "/aaa-portfolio/static/media/zenith.87218aff265f438ce682.png",
     "static/media/angular.png": "/aaa-portfolio/static/media/angular.cb343cc99c56c2f845db.png",
     "static/media/css-logo.png": "/aaa-portfolio/static/media/css-logo.acb35b131ae85a68d327.png",
-    "static/media/Aditya_Archunan_Anand.pdf": "/aaa-portfolio/static/media/Aditya_Archunan_Anand.7f87419e71d648983d5c.pdf",
+    "static/media/Aditya_Archunan_Anand.pdf": "/aaa-portfolio/static/media/Aditya_Archunan_Anand.a99d64c14b1720915d25.pdf",
     "static/media/docker.png": "/aaa-portfolio/static/media/docker.65b3eb35a06149685626.png",
     "static/media/azure.png": "/aaa-portfolio/static/media/azure.83b613db380891d546bf.png",
     "static/media/typescript.png": "/aaa-portfolio/static/media/typescript.2b6f0e4713c14412496e.png",
-    "static/media/home-photo.jpg": "/aaa-portfolio/static/media/home-photo.256eb3bedacf1ca91b76.jpg",
     "static/media/python-logo.png": "/aaa-portfolio/static/media/python-logo.f9dc70303b81180b774d.png",
     "static/media/electron_js.png": "/aaa-portfolio/static/media/electron_js.bdae6eceaa9063221bf3.png",
     "static/media/cpp-logo.png": "/aaa-portfolio/static/media/cpp-logo.fc461cc8303a38559c80.png",
@@ -37,11 +37,11 @@
     "static/media/kotlin-logo.webp": "/aaa-portfolio/static/media/kotlin-logo.1e5a85ba2bd6effed0d0.webp",
     "index.html": "/aaa-portfolio/index.html",
     "main.a0a0c7ce.css.map": "/aaa-portfolio/static/css/main.a0a0c7ce.css.map",
-    "main.01145375.js.map": "/aaa-portfolio/static/js/main.01145375.js.map",
+    "main.54efc1fb.js.map": "/aaa-portfolio/static/js/main.54efc1fb.js.map",
     "787.1ed0c42c.chunk.js.map": "/aaa-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a0a0c7ce.css",
-    "static/js/main.01145375.js"
+    "static/js/main.54efc1fb.js"
   ]
 }
