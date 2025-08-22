@@ -6,13 +6,16 @@ const Experience: React.FC = () => (
     <h1 className="about-heading">My Work Till Now...</h1>
 
     <div className="about-experience">
-      <h2 className="about-subheading">Founding Engineer</h2>
-      <p className="about-tech">React Native, Expo, AWS (EC2, EventBridge, Lambda, Amplify, SQS), MongoDB, Node.js, Express.js, Python, Shell Script, CI/CD, GitHub Actions, Agile</p>
+      <h2 className="about-subheading">Co-founder & CTO</h2>
+      <p className="about-tech">
+        React Native, Expo, TypeScript, AWS (EC2, EventBridge, Amplify, Lambda), Node.js, Express.js, Python, Shell Script, MongoDB, CI/CD, Git, GitHub, Agile
+      </p>
       <p className="about-company">Targetist (Jan 2024 – Present)</p>
       <p>
-        Co-founded and engineered an AI-powered task automation app from the ground up—launched on the iOS App Store. Led mobile app development with React Native and AWS Amplify for secure authentication. Architected and deployed a scalable serverless backend using AWS Lambda, EventBridge, and MongoDB Triggers, supporting real-time task scheduling. Designed core backend APIs in Node.js with rigorous test coverage using Jest and CI/CD pipelines powered by GitHub Actions and custom shell scripts. Also contributed to the machine learning engine in Python and presented live product demos to VCs and student panels.
+        Co-founded Targetist to eliminate coordination bottlenecks by building an agentic AI system using Claude, LangGraph, and a custom RAG pipeline for natural language planning. Designed and deployed a master-sub agent architecture with a React + TypeScript frontend, Node.js + Python FastAPI backend, AWS infrastructure, MongoDB, and integrations with Google Workspace and Microsoft Suite. Scaled to 1000+ beta users with 60% weekly retention, leveraging AI orchestration, workflow automation, system design, and product leadership to drive a successful B2B pivot.
       </p>
     </div>
+
 
     <div className="about-experience">
       <h2 className="about-subheading">Application Developer Intern</h2>

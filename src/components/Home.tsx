@@ -14,7 +14,7 @@ const Home: React.FC = () => (
       </div>
     </div>
     <div className="home-image-wrapper">
-      <img src={require("../assets/home-photo.jpg")}  alt="Aditya Archunan Anand" className="home-image" />
+      <img src={require("../assets/aditya_hero.png")}  alt="Aditya Archunan Anand" className="home-image" />
     </div>
   </section>
 );
