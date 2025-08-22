@@ -1,21 +1,19 @@
 {
   "files": {
-    "main.css": "/aaa-portfolio/static/css/main.b63169af.css",
-    "main.js": "/aaa-portfolio/static/js/main.e041b929.js",
-    "static/js/453.ace21015.chunk.js": "/aaa-portfolio/static/js/453.ace21015.chunk.js",
+    "main.css": "/aaa-portfolio/static/css/main.a0a0c7ce.css",
+    "main.js": "/aaa-portfolio/static/js/main.02a23dc4.js",
+    "static/js/787.1ed0c42c.chunk.js": "/aaa-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/aditya.jpg": "/aaa-portfolio/static/media/aditya.afc3232499d3aba1df84.jpg",
     "static/media/linux.png": "/aaa-portfolio/static/media/linux.fa16acdf775b49806cdd.png",
-    "static/media/zenith.png": "/aaa-portfolio/static/media/zenith.87218aff265f438ce682.png",
     "static/media/angular.png": "/aaa-portfolio/static/media/angular.cb343cc99c56c2f845db.png",
     "static/media/css-logo.png": "/aaa-portfolio/static/media/css-logo.acb35b131ae85a68d327.png",
-    "static/media/Aditya_Archunan_Anand.pdf": "/aaa-portfolio/static/media/Aditya_Archunan_Anand.7f87419e71d648983d5c.pdf",
     "static/media/docker.png": "/aaa-portfolio/static/media/docker.65b3eb35a06149685626.png",
     "static/media/azure.png": "/aaa-portfolio/static/media/azure.83b613db380891d546bf.png",
     "static/media/typescript.png": "/aaa-portfolio/static/media/typescript.2b6f0e4713c14412496e.png",
     "static/media/home-photo.jpg": "/aaa-portfolio/static/media/home-photo.256eb3bedacf1ca91b76.jpg",
     "static/media/python-logo.png": "/aaa-portfolio/static/media/python-logo.f9dc70303b81180b774d.png",
-    "static/media/electron_js.png": "/aaa-portfolio/static/media/electron_js.bdae6eceaa9063221bf3.png",
     "static/media/cpp-logo.png": "/aaa-portfolio/static/media/cpp-logo.fc461cc8303a38559c80.png",
+    "service-worker.js": "/aaa-portfolio/service-worker.js",
     "static/media/jetpack-compose-logo.png": "/aaa-portfolio/static/media/jetpack-compose-logo.3ef8d1755096bbc66c60.png",
     "static/media/git-github-logo.png": "/aaa-portfolio/static/media/git-github-logo.c3c22e534012fa85f18f.png",
     "static/media/aws.png": "/aaa-portfolio/static/media/aws.ee4d1ca0831348bf501d.png",
@@ -24,24 +22,24 @@
     "static/media/numpy.png": "/aaa-portfolio/static/media/numpy.262c98e70799747e7d0c.png",
     "static/media/mysql-logo.png": "/aaa-portfolio/static/media/mysql-logo.9abb470bd3a3e2290e39.png",
     "static/media/mongoDB.png": "/aaa-portfolio/static/media/mongoDB.93c6a527b6876ef04219.png",
-    "service-worker.js": "/aaa-portfolio/service-worker.js",
     "static/media/fast_api.png": "/aaa-portfolio/static/media/fast_api.ac3de26451373a621a7f.png",
     "static/media/targetist_new_logo.png": "/aaa-portfolio/static/media/targetist_new_logo.3cdd6038cb2083891b9e.png",
     "static/media/html-logo.png": "/aaa-portfolio/static/media/html-logo.df69503917a05a968e58.png",
     "static/media/drupal-logo.webp": "/aaa-portfolio/static/media/drupal-logo.c8102e0131085429779d.webp",
     "static/media/firebase-logo.png": "/aaa-portfolio/static/media/firebase-logo.eb0f694b0397db6b58c3.png",
     "static/media/java.png": "/aaa-portfolio/static/media/java.389a7974d0ac988c7be5.png",
+    "static/media/amazon-clone.png": "/aaa-portfolio/static/media/amazon-clone.d82c01816b81b7dffb81.png",
     "static/media/tensorflow.png": "/aaa-portfolio/static/media/tensorflow.70ac5ad9d78fb619cdd4.png",
     "static/media/postman.png": "/aaa-portfolio/static/media/postman.3db9a252cfb270ed186b.png",
     "static/media/flask.png": "/aaa-portfolio/static/media/flask.0dd2248c59876953e820.png",
     "static/media/kotlin-logo.webp": "/aaa-portfolio/static/media/kotlin-logo.1e5a85ba2bd6effed0d0.webp",
     "index.html": "/aaa-portfolio/index.html",
-    "main.b63169af.css.map": "/aaa-portfolio/static/css/main.b63169af.css.map",
-    "main.e041b929.js.map": "/aaa-portfolio/static/js/main.e041b929.js.map",
-    "453.ace21015.chunk.js.map": "/aaa-portfolio/static/js/453.ace21015.chunk.js.map"
+    "main.a0a0c7ce.css.map": "/aaa-portfolio/static/css/main.a0a0c7ce.css.map",
+    "main.02a23dc4.js.map": "/aaa-portfolio/static/js/main.02a23dc4.js.map",
+    "787.1ed0c42c.chunk.js.map": "/aaa-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b63169af.css",
-    "static/js/main.e041b929.js"
+    "static/css/main.a0a0c7ce.css",
+    "static/js/main.02a23dc4.js"
   ]
 }
