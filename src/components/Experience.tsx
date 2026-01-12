@@ -5,35 +5,64 @@ const Experience: React.FC = () => (
   <section className="about-section">
     <h1 className="about-heading">My Work Till Now...</h1>
 
+
     <div className="about-experience">
-      <h2 className="about-subheading">Co-founder & CTO</h2>
+      <h2 className="about-subheading">Application Developer</h2>
       <p className="about-tech">
-        React Native, Expo, TypeScript, AWS (EC2, EventBridge, Amplify, Lambda), Node.js, Express.js, Python, Shell Script, MongoDB, CI/CD, Git, GitHub, Agile
+        Java, Spring Boot, Angular, Oracle SQL, MySQL, FastAPI, Python, Azure OpenAI,
+        Azure Document Intelligence, Git, Bitbucket, Agile
       </p>
-      <p className="about-company">Targetist (Jan 2024 – Present)</p>
+      <p className="about-company">
+        Delta Dental of Michigan (Dec 2024 – Present)
+      </p>
       <p>
-        Co-founded Targetist to eliminate coordination bottlenecks by building an agentic AI system using Claude, LangGraph, and a custom RAG pipeline for natural language planning. Designed and deployed a master-sub agent architecture with a React + TypeScript frontend, Node.js + Python FastAPI backend, AWS infrastructure, MongoDB, and integrations with Google Workspace and Microsoft Suite. Scaled to 1000+ beta users with 60% weekly retention, leveraging AI orchestration, workflow automation, system design, and product leadership to drive a successful B2B pivot.
+        Contributed to the development of enterprise-grade audit and AI automation
+        systems within Roosevelt Solutions, a dental insurance platform serving over
+        22 million users across multiple states. Designed and maintained Spring Boot
+        APIs backed by complex Oracle SQL queries to support contract audits, with a
+        strong focus on performance, security, and reliability. Authored OpenAPI
+        documentation and applied Test-Driven Development to improve backend quality
+        and reduce API errors.
+        <br /><br />
+        Built reusable AI agents using Azure OpenAI and Azure Document Intelligence to
+        automate eligibility determination from enrollment documents. Deployed the
+        solution via FastAPI and implemented asynchronous processing with Python
+        asyncio to efficiently handle large document volumes. Developed Angular-based
+        admin interfaces enabling seamless interaction with audit data and AI-powered
+        workflows, significantly reducing manual processing time and improving
+        operational efficiency.
       </p>
     </div>
 
-
-    <div className="about-experience">
-      <h2 className="about-subheading">Application Developer Intern</h2>
-      <p className="about-tech">Java, Spring Boot, Angular, MySQL, Oracle DB, FastAPI, Azure OpenAI, Bitbucket, Git, Agile</p>
-      <p className="about-company">Delta Dental of Michigan (Dec 2024 – Present)</p>
-      <p>
-        Spearheaded development of critical backend and frontend components for Roosevelt Solutions—an enterprise insurance platform used by 22M+ users. Designed scalable Spring Boot APIs with TDD, authored precise SQL queries, and documented endpoints with full MD specs. Built intuitive Angular UI interfaces and developed a FastAPI-based Azure OpenAI agent to automate insurance eligibility from unstructured documents. Engineered a seamless admin interface integrating this AI solution, significantly reducing manual workload.
-      </p>
-    </div>
 
     <div className="about-experience">
       <h2 className="about-subheading">Student Web Developer</h2>
-      <p className="about-tech">PHP, MySQL, PostgreSQL, Drupal, Docker, Git, Linux, Devilbox, OOP</p>
-      <p className="about-company">Michigan State University (Jan 2023 – Present)</p>
+      <p className="about-tech">
+        PHP, MySQL, PostgreSQL, Drupal, Symfony, Docker, Devilbox, Git, GitLab, Linux,
+        Object-Oriented Programming
+      </p>
+      <p className="about-company">
+        Michigan State University (Jan 2023 – May 2025)
+      </p>
       <p>
-        Delivered production-grade web solutions for MSU’s Residential and Hospitality Services. Built custom Drupal modules in PHP using OOP and hooks to extend CMS functionality for multi-venue event systems. Migrated legacy sports camp sites to modern Drupal stack—enhancing performance and usability for 2,000+ admins and users. Resolved 20+ critical bugs and contributed to cross-team development using Dockerized Devilbox environments and GitLab CI practices.
+        Contributed to the development and maintenance of production Drupal websites
+        for Michigan State University’s Residential and Hospitality Services
+        department. Delivered bug fixes and feature enhancements using PHP, MySQL,
+        and containerized Devilbox environments, resolving over 20 technical issues
+        and supporting multiple long-term projects built on Drupal and Symfony.
+        <br /><br />
+        Designed and developed a reusable custom Drupal module using hooks and
+        object-oriented principles to customize XML event feed output for upcoming
+        events across multiple MSU venues. Maintained the module as a Git submodule in
+        GitLab, enabling consistent reuse across different university websites.
+        <br /><br />
+        Refactored and stabilized the MSU Sports Camps website to improve
+        performance, reliability, and user experience for over 2,000 end users.
+        Supported a mission-critical platform responsible for generating more than
+        $1M in annual program revenue.
       </p>
     </div>
+
   </section>
 );
 
