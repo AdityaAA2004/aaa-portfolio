@@ -3,28 +3,20 @@ import './Portfolio.css';
 
 const projects = [
   {
-    name: 'Targetist',
-    sub: 'AI-powered goal & task management platform',
-    desc: 'A productivity platform that uses AI to help users break down goals into actionable tasks, track progress, and stay accountable. Features smart scheduling, priority management, and progress analytics to keep users on track.',
-    tags: ['React', 'TypeScript', 'Node.js', 'Firebase', 'AI'],
-    link: 'https://targetist.io',
-    linkLabel: 'Visit ↗',
-  },
-  {
-    name: 'Zenith',
-    sub: 'Full-stack social productivity app',
-    desc: 'A collaborative productivity application built with a Spring Boot backend and React frontend. Implements JWT authentication, real-time updates, and a relational data model supporting user goals, tasks, and social accountability features.',
-    tags: ['React', 'Spring Boot', 'MySQL', 'Java', 'REST API'],
-    link: 'https://github.com/AdityaAA2004/Zenith',
+    name: 'Developable',
+    sub: 'Multi-agent code generation skill built on Claude',
+    desc: 'A structured Claude skill that coordinates three agents — Developer, Tester, and Version Control — to generate complete, tested Express + TypeScript backends from a schema definition. The Developer agent produces auth-enforced, Zod-validated endpoints; the Tester writes 100+ integration tests per schema; the VC agent handles schema diffing and incremental regeneration. Prompt caching eliminates redundant LLM calls on iterative runs, cutting token consumption by 20%+ per session.',
+    tags: ['Python', 'TypeScript', 'Prisma', 'Claude API', 'Docker', 'Pytest'],
+    link: 'https://github.com/DevelopableAI',
     linkLabel: 'GitHub ↗',
   },
   {
-    name: 'Neural Network Car Sim',
-    sub: 'Self-driving car simulation with a hand-rolled neural net',
-    desc: 'A browser-based simulation where cars learn to navigate a track using a neural network trained via a genetic algorithm — no ML libraries. The network processes sensor ray-cast distances and steers the car in real time, with each generation visibly improving lap performance.',
-    tags: ['JavaScript', 'Canvas API', 'Neural Networks', 'Genetic Algorithm'],
-    link: 'https://github.com/AdityaAA2004/Neural-Network-Car-sim',
-    linkLabel: 'GitHub ↗',
+    name: 'ContractOS',
+    sub: 'Contractor lifecycle workflow engine',
+    desc: 'Declarative workflow engine for the full contractor lifecycle — requisition to offboarding. Configurable stage templates, an append-only EventLog with deadline triggers, and compliance checkpoints at each gate maintain full auditability for organizations managing concurrent assignments.',
+    tags: ['Next.js', 'TypeScript', 'PostgreSQL', 'Prisma'],
+    link: null,
+    linkLabel: null,
   },
 ];
 
