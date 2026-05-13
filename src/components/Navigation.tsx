@@ -2,18 +2,16 @@ import React, { useState, useEffect } from 'react';
 import './Navigation.css';
 const resumePDF = require('../assets/Aditya_Archunan_Anand.pdf');
 
-interface NavigationProps {
-  active: string;
-}
+interface Props { active: string; }
 
 const NAV_ITEMS: [string, string][] = [
-  ['Work',     'work'],
-  ['Projects', 'projects'],
-  ['Skills',   'skills'],
-  ['Contact',  'contact'],
+  ['Experience', 'experience'],
+  ['Projects',   'portfolio'],
+  ['Skills',     'skills'],
+  ['Contact',    'contact'],
 ];
 
-const Navigation: React.FC<NavigationProps> = ({ active }) => {
+const Navigation: React.FC<Props> = ({ active }) => {
   const [scrolled, setScrolled] = useState(false);
   const [pct, setPct] = useState(0);
 
@@ -31,7 +29,7 @@ const Navigation: React.FC<NavigationProps> = ({ active }) => {
     <>
       <div className="scroll-bar" style={{ width: `${pct}%` }} />
       <nav className={scrolled ? 'nav nav-scrolled' : 'nav'}>
-        <a href="#hero" className="nav-logo">AAA</a>
+        <a href="#home" className="nav-logo">AAA</a>
         <ul className="nav-links">
           {NAV_ITEMS.map(([label, id]) => (
             <li key={id}>
@@ -39,9 +37,7 @@ const Navigation: React.FC<NavigationProps> = ({ active }) => {
             </li>
           ))}
           <li>
-            <a href={resumePDF} target="_blank" rel="noreferrer" className="nav-resume">
-              Resume ↗
-            </a>
+            <a href={resumePDF} target="_blank" rel="noreferrer" className="nav-resume">Resume ↗</a>
           </li>
         </ul>
       </nav>

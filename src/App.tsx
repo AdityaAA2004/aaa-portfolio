@@ -8,14 +8,8 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 
 function App() {
-  const [active, setActive] = useState('hero');
+  const [active, setActive] = useState('home');
 
-  // Set dark theme once on mount
-  useEffect(() => {
-    document.documentElement.setAttribute('data-theme', 'dark');
-  }, []);
-
-  // Scroll-reveal observer
   useEffect(() => {
     const obs = new IntersectionObserver(
       (es) => es.forEach((e) => { if (e.isIntersecting) e.target.classList.add('in'); }),
@@ -25,12 +19,11 @@ function App() {
     return () => obs.disconnect();
   }, []);
 
-  // Active section tracker for nav highlight
   useEffect(() => {
-    const ids = ['hero', 'work', 'projects', 'skills', 'contact'];
+    const ids = ['home', 'experience', 'portfolio', 'skills', 'contact'];
     const obs = new IntersectionObserver(
       (es) => es.forEach((e) => { if (e.isIntersecting) setActive(e.target.id); }),
-      { threshold: 0.2 }
+      { threshold: 0.15 }
     );
     ids.forEach((id) => { const el = document.getElementById(id); if (el) obs.observe(el); });
     return () => obs.disconnect();
@@ -39,11 +32,13 @@ function App() {
   return (
     <div className="App">
       <Navigation active={active} />
-      <Home />
-      <Experience />
-      <Portfolio />
-      <Skills />
-      <Contact />
+      <main className="App-main">
+        <section id="home"><Home /></section>
+        <section id="experience"><Experience /></section>
+        <section id="portfolio"><Portfolio /></section>
+        <section id="skills"><Skills /></section>
+        <section id="contact"><Contact /></section>
+      </main>
     </div>
   );
 }

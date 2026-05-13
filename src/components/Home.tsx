@@ -4,7 +4,7 @@ const resumePDF = require('../assets/Aditya_Archunan_Anand.pdf');
 const photo = require('../assets/aditya.jpg');
 
 const Home: React.FC = () => (
-  <section id="hero" className="hero">
+  <section className="hero">
     <div className="container">
       <div className="hero-inner">
         <div>
@@ -20,7 +20,6 @@ const Home: React.FC = () => (
             <a href={resumePDF} target="_blank" rel="noreferrer" className="hero-lnk">Resume ↓</a>
           </div>
         </div>
-
         <div className="hero-photo-side">
           <img className="hero-img" src={photo} alt="Aditya Archunan Anand" />
           <div className="hero-avail">

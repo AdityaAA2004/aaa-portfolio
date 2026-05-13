@@ -1,44 +1,19 @@
 .exp-list { display: flex; flex-direction: column; }
-
-.exp-entry {
-  padding: 44px 0;
-  border-bottom: 1px solid var(--border);
-}
-
+.exp-entry { padding: 44px 0; border-bottom: 1px solid var(--border); }
 .exp-entry:first-child { border-top: 1px solid var(--border); }
-
 .exp-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 18px;
-  gap: 16px;
+  display: flex; justify-content: space-between; align-items: flex-start;
+  margin-bottom: 18px; gap: 16px;
 }
-
-.exp-co {
-  font-family: var(--fd);
-  font-size: 21px;
-  font-weight: 700;
-  letter-spacing: -0.02em;
-  margin-bottom: 4px;
-}
-
+.exp-co { font-family: var(--fd); font-size: 21px; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 4px; }
 .exp-role { font-size: 13.5px; color: var(--muted); }
-
-.exp-period {
-  font-family: var(--fm);
-  font-size: 10.5px;
-  color: var(--faint);
-  white-space: nowrap;
-  letter-spacing: 0.07em;
-  padding-top: 4px;
+.exp-period { font-family: var(--fm); font-size: 10.5px; color: var(--faint); white-space: nowrap; letter-spacing: 0.07em; padding-top: 4px; }
+.exp-prose { font-size: 15px; color: var(--muted); line-height: 1.75; margin-bottom: 20px; max-width: 720px; }
+.exp-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+.exp-tag {
+  font-family: var(--fm); font-size: 10px; letter-spacing: 0.04em;
+  color: var(--accent); background: var(--accent-dim);
+  border: 1px solid oklch(62% 0.18 22 / 0.32);
+  padding: 4px 10px; border-radius: 4px;
 }
-
-.exp-prose {
-  font-size: 15px;
-  color: var(--muted);
-  line-height: 1.75;
-  margin-bottom: 20px;
-  max-width: 720px;
-  text-wrap: pretty;
-}
+@media (max-width: 600px) { .exp-top { flex-direction: column; gap: 4px; } }
