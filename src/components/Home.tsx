@@ -1,22 +1,36 @@
 import React from 'react';
 import './Home.css';
+const resumePDF = require('../assets/Aditya_Archunan_Anand.pdf');
+const photo = require('../assets/aditya.jpg');
 
 const Home: React.FC = () => (
-  <section className="home-section home-flex">
-    <div className="home-content">
-      <h1 className="home-heading">
-        I'm a full-stack developer with AI skills, ready to enter the software industry.
-      </h1>
-      <div className="home-description">
-        <p>
-          I have hands-on experience as an Application Developer and Student Web Developer, working with modern technologies like Angular, Java, Spring Boot, Python, React Native, AWS, and PHP. I've contributed to large-scale enterprise projects, built APIs and UIs, automated workflows with AI, and collaborated in Agile teams. My work spans corporate, higher education, and startup environments, where I've solved real-world problems, improved user experiences, and delivered robust solutions across web and mobile platforms.
-        </p>
+  <section id="hero" className="hero">
+    <div className="container">
+      <div className="hero-inner">
+        <div>
+          <p className="hero-label">Software Engineer</p>
+          <h1 className="hero-name">Aditya<br />Archunan Anand</h1>
+          <p className="hero-tagline">
+            Building AI-powered systems and developer tools — from API design to production deployment at enterprise scale.
+          </p>
+          <div className="hero-linkbar">
+            <a href="mailto:anandad1@msu.edu" className="hero-lnk hi">Email</a>
+            <a href="https://linkedin.com/in/aanandadi/" target="_blank" rel="noreferrer" className="hero-lnk">LinkedIn ↗</a>
+            <a href="https://github.com/AdityaAA2004" target="_blank" rel="noreferrer" className="hero-lnk">GitHub ↗</a>
+            <a href={resumePDF} target="_blank" rel="noreferrer" className="hero-lnk">Resume ↓</a>
+          </div>
+        </div>
+
+        <div className="hero-photo-side">
+          <img className="hero-img" src={photo} alt="Aditya Archunan Anand" />
+          <div className="hero-avail">
+            <div className="avail-dot" />
+            Open to full-time
+          </div>
+        </div>
       </div>
-    </div>
-    <div className="home-image-wrapper">
-      <img src={require("../assets/aditya_hero.png")}  alt="Aditya Archunan Anand" className="home-image" />
     </div>
   </section>
 );
 
-export default Home; 
+export default Home;
