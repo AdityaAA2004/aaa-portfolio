@@ -1,6 +1,6 @@
 import React from 'react';
 import './TweaksPanel.css';
-import { Theme, AccentKey, Spacing, Accent } from '../App';
+import { Theme, AccentKey, Spacing, Accent } from '../types';
 
 interface TweaksPanelProps {
   visible: boolean;

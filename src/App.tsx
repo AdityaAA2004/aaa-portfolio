@@ -7,18 +7,9 @@ import Portfolio from './components/Portfolio';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import TweaksPanel from './components/TweaksPanel';
+import { Theme, AccentKey, Spacing, Accent } from './types';
 
-export type Theme = 'dark' | 'light';
-export type AccentKey = 'coral' | 'amber' | 'indigo' | 'sage';
-export type Spacing = 'compact' | 'default';
-
-export interface Accent {
-  key: AccentKey;
-  val: string;
-  hval: string;
-  dim: string;
-  css: string;
-}
+export type { Theme, AccentKey, Spacing, Accent };
 
 export const ACCENTS: Accent[] = [
   { key: 'coral',  val: 'oklch(62% 0.18 22)',  hval: 'oklch(66% 0.18 22)',  dim: 'oklch(62% 0.18 22 / 0.13)',  css: '#C95B45' },
