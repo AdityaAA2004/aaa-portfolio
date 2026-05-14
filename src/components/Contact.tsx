@@ -5,7 +5,7 @@ const Contact: React.FC = () => (
   <>
     <div className="contact-section section">
       <div className="container">
-        <h2 className="contact-hed reveal"><span className="sec-num">04</span>Let's work<br />together.</h2>
+        <h2 className="contact-hed reveal">Let's work<br />together.</h2>
         <p className="contact-sub reveal d1">
           Open to full-time new grad software engineering roles. Send me a message.
         </p>

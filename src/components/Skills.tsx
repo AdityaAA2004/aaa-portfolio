@@ -12,7 +12,7 @@ const Skills: React.FC = () => (
   <div className="section">
     <div className="container">
       <div className="reveal">
-        <h2 className="sec-heading"><span className="sec-num">03</span>Tech Stack</h2>
+        <h2 className="sec-heading">Tech Stack</h2>
       </div>
       <div className="skill-table">
         {Object.entries(SKILLS).map(([grp, items], i) => (

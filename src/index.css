@@ -47,16 +47,6 @@ button { font-family: var(--fb); cursor: pointer; border: none; background: none
 .container { max-width: var(--mw); margin: 0 auto; padding: 0 52px; }
 .section   { padding: var(--sg) 0; }
 
-.sec-num {
-  display: block;
-  font-family: var(--fm);
-  font-size: 11px;
-  font-weight: 500;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--accent);
-  margin-bottom: 14px;
-}
 .sec-heading {
   font-family: var(--fd);
   font-size: clamp(28px, 3.2vw, 44px);
