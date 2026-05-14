@@ -29,21 +29,8 @@
 }
 .hero-linkbar {
   display: flex; margin-top: 36px;
-  border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
   animation: rise 0.65s ease 0.5s both;
 }
-.hero-lnk {
-  display: inline-flex; align-items: center; gap: 6px;
-  font-family: var(--fm); font-size: 10.5px; letter-spacing: 0.1em;
-  text-transform: uppercase; color: var(--muted);
-  padding: 13px 20px; border-right: 1px solid var(--border);
-  transition: color var(--t), background var(--t);
-}
-.hero-lnk:first-child { padding-left: 0; }
-.hero-lnk:last-child  { border-right: none; }
-.hero-lnk:hover       { color: var(--text); }
-.hero-lnk.hi          { color: var(--accent); }
-.hero-lnk.hi:hover    { background: var(--accent-dim); }
 .hero-photo-side {
   display: flex; flex-direction: column; align-items: center; gap: 20px;
   animation: rise 0.65s ease 0.28s both;

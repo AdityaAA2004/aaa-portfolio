@@ -14,10 +14,10 @@ const Home: React.FC = () => (
             Building AI-powered systems and developer tools — from API design to production deployment at enterprise scale.
           </p>
           <div className="hero-linkbar">
-            <a href="mailto:anandad1@msu.edu" className="hero-lnk hi">Email</a>
-            <a href="https://linkedin.com/in/aanandadi/" target="_blank" rel="noreferrer" className="hero-lnk">LinkedIn ↗</a>
-            <a href="https://github.com/AdityaAA2004" target="_blank" rel="noreferrer" className="hero-lnk">GitHub ↗</a>
-            <a href={resumePDF} target="_blank" rel="noreferrer" className="hero-lnk">Resume ↓</a>
+            <a href="mailto:anandad1@msu.edu" className="clink p">Email</a>
+            <a href="https://linkedin.com/in/aanandadi/" target="_blank" rel="noreferrer" className="clink">LinkedIn ↗</a>
+            <a href="https://github.com/AdityaAA2004" target="_blank" rel="noreferrer" className="clink">GitHub ↗</a>
+            <a href={resumePDF} target="_blank" rel="noreferrer" className="clink">Resume ↓</a>
           </div>
         </div>
         <div className="hero-photo-side">

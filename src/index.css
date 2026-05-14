@@ -54,6 +54,25 @@ button { font-family: var(--fb); cursor: pointer; border: none; background: none
   margin-bottom: 52px;
 }
 
+.clink {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-family: var(--fm); font-size: 10.5px; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--muted);
+  padding: 13px 22px;
+  border: 1px solid var(--border); border-right: none;
+  transition: color var(--t), background var(--t);
+}
+.clink:first-child { border-radius: 7px 0 0 7px; }
+.clink:last-child  { border-right: 1px solid var(--border); border-radius: 0 7px 7px 0; }
+.clink:hover       { color: var(--text); background: var(--bg-soft); }
+.clink.p           { background: var(--accent); border-color: var(--accent); color: #fff; }
+.clink.p:hover     { background: var(--accent-h); border-color: var(--accent-h); }
+@media (max-width: 600px) {
+  .clink { border-right: 1px solid var(--border); border-bottom: none; border-radius: 0; }
+  .clink:first-child { border-radius: 7px 7px 0 0; }
+  .clink:last-child  { border-bottom: 1px solid var(--border); border-radius: 0 0 7px 7px; }
+}
+
 .tags { display: flex; flex-wrap: wrap; gap: 8px; }
 .tag {
   font-family: var(--fm); font-size: 10px; letter-spacing: 0.04em;
