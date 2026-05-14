@@ -2,29 +2,50 @@ import React from 'react';
 import './Contact.css';
 
 const Contact: React.FC = () => (
-  <section className="contact-section" id="contact">
-    <h1 className="contact-heading">Contact Me</h1>
-    <form
-      className="contact-form"
-      action="https://getform.io/f/98484116-5253-4539-9b0a-86f1a91536d3"
-      method="POST"
-      autoComplete="off"
-    >
-      <div className="form-group">
-        <label htmlFor="name">Name</label>
-        <input type="text" id="name" name="name" required />
+  <>
+    <div className="contact-section section">
+      <div className="container">
+        <h2 className="contact-hed reveal">Let's work<br />together.</h2>
+        <p className="contact-sub reveal d1">
+          Open to full-time new grad software engineering roles. Send me a message.
+        </p>
+        <form
+          className="contact-form reveal d2"
+          action="https://getform.io/f/98484116-5253-4539-9b0a-86f1a91536d3"
+          method="POST"
+          autoComplete="off"
+        >
+          <div className="cf-row">
+            <div className="cf-field">
+              <label className="cf-label" htmlFor="name">Name</label>
+              <input className="cf-input" type="text" id="name" name="name" required />
+            </div>
+            <div className="cf-field">
+              <label className="cf-label" htmlFor="email">Email</label>
+              <input className="cf-input" type="email" id="email" name="email" required />
+            </div>
+          </div>
+          <div className="cf-field">
+            <label className="cf-label" htmlFor="message">Message</label>
+            <textarea className="cf-input" id="message" name="message" rows={5} required />
+          </div>
+          <div className="cf-footer">
+            <div className="cf-links">
+              <a href="https://linkedin.com/in/aanandadi/" target="_blank" rel="noreferrer" className="cf-link">LinkedIn ↗</a>
+              <a href="https://github.com/AdityaAA2004" target="_blank" rel="noreferrer" className="cf-link">GitHub ↗</a>
+            </div>
+            <button type="submit" className="cf-submit">Send message →</button>
+          </div>
+        </form>
       </div>
-      <div className="form-group">
-        <label htmlFor="email">Email</label>
-        <input type="email" id="email" name="email" required />
+    </div>
+    <footer className="site-footer">
+      <div className="container footer-inner">
+        <span className="ft">© 2026 Aditya Archunan Anand</span>
+        <span className="ft">anandad1@msu.edu</span>
       </div>
-      <div className="form-group">
-        <label htmlFor="message">Message</label>
-        <textarea id="message" name="message" rows={5} required />
-      </div>
-      <button type="submit" className="contact-submit">Send</button>
-    </form>
-  </section>
+    </footer>
+  </>
 );
 
-export default Contact; 
+export default Contact;
