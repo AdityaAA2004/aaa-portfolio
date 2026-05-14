@@ -43,6 +43,14 @@ button { font-family: var(--fb); cursor: pointer; border: none; background: none
   margin-bottom: 52px;
 }
 
+.tags { display: flex; flex-wrap: wrap; gap: 8px; }
+.tag {
+  font-family: var(--fm); font-size: 10px; letter-spacing: 0.04em;
+  color: var(--accent); background: var(--accent-dim);
+  border: 1px solid oklch(62% 0.18 22 / 0.32);
+  padding: 4px 10px; border-radius: 4px;
+}
+
 .reveal { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease, transform 0.6s ease; }
 .reveal.in { opacity: 1; transform: translateY(0); }
 .d1 { transition-delay: 0.08s; }

@@ -15,23 +15,6 @@
   font-size: 15px; color: var(--muted); line-height: 1.75;
   margin-bottom: 20px; max-width: 660px;
 }
-.tags { display: flex; flex-wrap: wrap; gap: 8px; }
-.tag {
-  font-family: var(--fm); font-size: 10px; letter-spacing: 0.04em;
-  color: var(--muted); background: var(--surface);
-  border: 1px solid var(--border);
-  padding: 4px 10px; border-radius: 4px;
-}
-.tag-a {
-  color: var(--accent);
-  border-color: oklch(62% 0.18 22 / 0.32);
-  background: var(--accent-dim);
-}
-[data-theme="dark"] .tag {
-  color: var(--accent);
-  border-color: oklch(62% 0.18 22 / 0.32);
-  background: var(--accent-dim);
-}
 .proj-link {
   display: inline-flex; align-items: center; gap: 8px;
   font-family: var(--fm); font-size: 10.5px; letter-spacing: 0.1em;
