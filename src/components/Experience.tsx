@@ -15,7 +15,7 @@ const Experience: React.FC = () => (
               <h3 className="exp-co">Delta Dental of Michigan</h3>
               <p className="exp-role">Application Developer Intern</p>
             </div>
-            <span className="exp-period">Nov 2024 – Present</span>
+            <span className="exp-period">Nov 2024 – May 2026</span>
           </div>
           <p className="exp-prose">
             Built Spring Boot APIs improving audit capabilities for dental insurance contracts serving 22M+ members.
