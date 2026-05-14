@@ -1,5 +1,5 @@
 .scroll-bar {
-  position: fixed; top: 0; left: 0; height: 2px;
+  position: fixed; top: 0; left: 0; height: 3px;
   background: var(--accent); z-index: 101;
   transition: width 0.08s linear; pointer-events: none;
 }
@@ -10,25 +10,45 @@
   border-bottom: 1px solid transparent;
   transition: padding var(--t), background var(--t), border-color var(--t);
 }
-.nav-scrolled { background: var(--bg); border-color: var(--border); padding: 14px 52px; }
-.nav-logo { font-family: var(--fd); font-size: 18px; font-weight: 700; letter-spacing: -0.01em; }
-.nav-links { display: flex; align-items: center; gap: 32px; list-style: none; }
+.nav-scrolled {
+  background: oklch(10% 0.008 30 / 0.88);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-color: var(--border);
+  padding: 12px 52px;
+}
+.nav-logo {
+  font-family: var(--fd);
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+.nav-links { display: flex; align-items: center; gap: 28px; list-style: none; }
 .nav-links a { font-size: 13px; color: var(--muted); transition: color var(--t); }
 .nav-links a:hover { color: var(--text); }
-.nav-links a.active { color: var(--accent); }
+.nav-links a.active {
+  color: var(--accent);
+  text-decoration-line: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 4px;
+  text-decoration-color: var(--accent);
+}
 .nav-resume {
-  font-family: var(--fm) !important; font-size: 10.5px !important;
-  letter-spacing: 0.1em; text-transform: uppercase;
-  color: var(--accent) !important;
-  border: 1px solid oklch(62% 0.18 22 / 0.5);
-  padding: 7px 16px; border-radius: 5px; white-space: nowrap;
-  transition: background var(--t) !important;
+  font-family: var(--fm);
+  font-size: 10.5px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--accent);
+  border: 1px solid oklch(63.5% 0.172 27 / 0.5);
+  padding: 7px 16px;
+  border-radius: 2px;
+  white-space: nowrap;
+  transition: background var(--t);
 }
 .nav-resume:hover { background: var(--accent-dim); }
 .nav-theme-toggle {
   font-size: 15px; color: var(--muted); padding: 4px;
-  transition: color var(--t);
-  line-height: 1;
+  transition: color var(--t); line-height: 1;
 }
 .nav-theme-toggle:hover { color: var(--text); }
 @media (max-width: 960px) { .nav, .nav-scrolled { padding: 14px 28px; } }

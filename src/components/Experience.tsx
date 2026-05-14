@@ -24,9 +24,9 @@ const Experience: React.FC = () => (
             surfaces structured outputs via FastAPI. Designed the Angular review UI within Roosevelt Solutions for
             human-in-the-loop decision-making.
           </p>
-          <div className="exp-tags">
+          <div className="tags">
             {['Spring Boot','FastAPI','Azure OpenAI','Angular','Java','JUnit','Mockito'].map(t => (
-              <span key={t} className="exp-tag">{t}</span>
+              <span key={t} className="tag">{t}</span>
             ))}
           </div>
         </div>
@@ -45,9 +45,9 @@ const Experience: React.FC = () => (
             Portal — a Symfony application managing residence hall service desk operations across multiple buildings.
             Built a reusable PHP Drupal Hooks module that auto-generates customized XML event feeds for 10+ campus venues.
           </p>
-          <div className="exp-tags">
+          <div className="tags">
             {['Drupal','PHP','Symfony','MySQL','JavaScript'].map(t => (
-              <span key={t} className="exp-tag">{t}</span>
+              <span key={t} className="tag">{t}</span>
             ))}
           </div>
         </div>
