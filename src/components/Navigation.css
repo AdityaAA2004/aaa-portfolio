@@ -25,5 +25,11 @@
   transition: background var(--t) !important;
 }
 .nav-resume:hover { background: var(--accent-dim); }
+.nav-theme-toggle {
+  font-size: 15px; color: var(--muted); padding: 4px;
+  transition: color var(--t);
+  line-height: 1;
+}
+.nav-theme-toggle:hover { color: var(--text); }
 @media (max-width: 960px) { .nav, .nav-scrolled { padding: 14px 28px; } }
 @media (max-width: 600px) { .nav-links { display: none; } }

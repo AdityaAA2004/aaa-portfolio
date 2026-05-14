@@ -14,6 +14,7 @@ const NAV_ITEMS: [string, string][] = [
 const Navigation: React.FC<Props> = ({ active }) => {
   const [scrolled, setScrolled] = useState(false);
   const [pct, setPct] = useState(0);
+  const [dark, setDark] = useState(true);
 
   useEffect(() => {
     const fn = () => {
@@ -24,6 +25,12 @@ const Navigation: React.FC<Props> = ({ active }) => {
     window.addEventListener('scroll', fn, { passive: true });
     return () => window.removeEventListener('scroll', fn);
   }, []);
+
+  const toggleTheme = () => {
+    const next = dark ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    setDark(!dark);
+  };
 
   return (
     <>
@@ -38,6 +45,11 @@ const Navigation: React.FC<Props> = ({ active }) => {
           ))}
           <li>
             <a href={resumePDF} target="_blank" rel="noreferrer" className="nav-resume">Resume ↗</a>
+          </li>
+          <li>
+            <button className="nav-theme-toggle" onClick={toggleTheme} aria-label="Toggle theme">
+              {dark ? '☀' : '☾'}
+            </button>
           </li>
         </ul>
       </nav>
