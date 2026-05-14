@@ -24,7 +24,7 @@ const Portfolio: React.FC = () => (
   <div className="section">
     <div className="container">
       <div className="reveal">
-        <h2 className="sec-heading">Projects</h2>
+        <h2 className="sec-heading"><span className="sec-num">02</span>Projects</h2>
       </div>
       <div className="proj-list">
         {projects.map((p, i) => (

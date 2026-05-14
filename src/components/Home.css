@@ -4,21 +4,22 @@
 }
 .hero::before {
   content: ''; position: absolute; inset: 0;
-  background: radial-gradient(ellipse 60% 80% at 80% 50%, oklch(62% 0.18 22 / 0.04) 0%, transparent 70%);
+  background: radial-gradient(ellipse 50% 70% at 85% 60%, oklch(63.5% 0.172 27 / 0.055) 0%, transparent 65%);
   pointer-events: none;
 }
 .hero-inner {
-  display: grid; grid-template-columns: 1fr 320px;
+  display: grid; grid-template-columns: 1fr 300px;
   gap: 80px; align-items: center; width: 100%; position: relative; z-index: 1;
 }
 .hero-label {
-  font-family: var(--fm); font-size: 10.5px; letter-spacing: 0.2em;
+  font-family: var(--fm); font-size: 10.5px; letter-spacing: 0.14em;
+  font-weight: 500;
   text-transform: uppercase; color: var(--accent); margin-bottom: 22px;
   animation: rise 0.65s ease 0.1s both;
 }
 .hero-name {
   font-family: var(--fd); font-weight: 700;
-  font-size: clamp(50px, 7.2vw, 96px);
+  font-size: clamp(58px, 8.5vw, 112px);
   line-height: 0.93; letter-spacing: -0.018em; margin-bottom: 28px;
   animation: rise 0.65s ease 0.2s both;
 }
@@ -28,7 +29,7 @@
   animation: rise 0.65s ease 0.38s both;
 }
 .hero-linkbar {
-  display: flex; margin-top: 36px;
+  display: flex; gap: 8px; margin-top: 36px; flex-wrap: wrap;
   animation: rise 0.65s ease 0.5s both;
 }
 .hero-photo-side {
@@ -36,9 +37,12 @@
   animation: rise 0.65s ease 0.28s both;
 }
 .hero-img {
-  width: 300px; height: 300px; border-radius: 50%;
-  object-fit: cover; object-position: center 15%;
-  border: 1px solid var(--border);
+  width: 300px; height: 380px;
+  border-radius: 3px;
+  object-fit: cover; object-position: center 12%;
+  border: none;
+  outline: 3px solid var(--border);
+  outline-offset: 6px;
 }
 .hero-avail {
   display: flex; align-items: center; gap: 8px;
@@ -46,14 +50,12 @@
   text-transform: uppercase; color: var(--faint);
 }
 .avail-dot {
-  width: 7px; height: 7px; border-radius: 50%; background: #4ade80;
-  animation: glow 2.5s ease-in-out infinite;
+  width: 6px; height: 6px; border-radius: 50%; background: #4ade80;
 }
 @keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: translateY(0); } }
-@keyframes glow { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
 @media (max-width: 960px) {
   .hero-inner { grid-template-columns: 1fr; gap: 44px; }
   .hero-photo-side { order: -1; flex-direction: row; align-items: center; gap: 24px; }
-  .hero-img { width: 180px; height: 180px; }
+  .hero-img { width: 160px; height: 200px; }
 }
 @media (max-width: 600px) { .hero-linkbar { flex-wrap: wrap; } }

@@ -4,10 +4,13 @@
   gap: 24px; align-items: start;
   padding: 18px 0;
   border-bottom: 1px solid var(--border);
+  border-radius: 2px;
+  transition: background var(--t);
 }
 .skill-row:first-child { border-top: 1px solid var(--border); }
+.skill-row:hover { background: var(--bg-soft); }
 .skill-cat {
-  font-family: var(--fm); font-size: 10px; color: var(--faint);
+  font-family: var(--fm); font-size: 10px; font-weight: 500; color: var(--faint);
   text-transform: uppercase; letter-spacing: 0.14em; padding-top: 5px;
 }
 @media (max-width: 960px) { .skill-row { grid-template-columns: 110px 1fr; } }
